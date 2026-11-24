@@ -13,7 +13,7 @@ Which stores and products should the company **invest in, fix, watch or cut?**
 **Invest:** The online store grew 51.4% in 2019 and now makes 21.4% of sales, at the same margin as physical stores. Stores 66, 47 and 43 sell the most per square meter and keep growing. Computers and Cameras and camcorders are the strongest product categories.\
 **Fix:** 15 stores grow well but sell little per square meter, and Cell phones and Games and Toys grow fast on thin margins. Find the cause (product mix, location) before spending.\
 **Cut or review:** Store 20's sales fell 47.8% in 2019. Refrigerators fell 15.3% while the company grew 42.8%.
-Read full the findings in [recommendations](https://github.com/kabirabdulsamad91/Retail-store-analysis/blob/main/recommendations.md)
+Read full the findings in [recommendations.md](https://github.com/kabirabdulsamad91/Retail-store-analysis/blob/main/recommendations.md)
 
 ## How I did it
 
@@ -27,20 +27,20 @@ Read full the findings in [recommendations](https://github.com/kabirabdulsamad91
 
 ## Decisions I made
 
-**- Median, not average,** as the benchmark, because outliers pull the average up.\
-**- A Cut needs a real decline:** low on both measures and 2019 sales down 10% or more. Stores that are weak but not shrinking that fast are Watch.\
-**- Refrigerators are a Cut at the subcategory level,** after checking that the 2019 fall was not a company-wide pattern.\
+**1.Median, not average,** as the benchmark, because outliers pull the average up.\
+**2.A Cut needs a real decline:** low on both measures and 2019 sales down 10% or more. Stores that are weak but not shrinking that fast are Watch.\
+**3.Refrigerators are a Cut at the subcategory level,** after checking that the 2019 fall was not a company-wide pattern.
 
 ## Limits
 
-- Profit is gross profit. The data has no rent, staff or other store costs.\
-- Median splits put about a quarter of items in the weaker groups by design.\
-- Store-by-product detail is too thin for growth rates.\
+- Profit is gross profit. The data has no rent, staff or other store costs.<br>
+- Median splits put about a quarter of items in the weaker groups by design.<br>
+- Store-by-product detail is too thin for growth rates.<br>
 - The data cannot show online payment or checkout problems.
 
 ## Tools
 
-- Excel (Power Query, Power Pivot, Pivot table, DAX, Formulas and functions)\
+- Excel (Power Query, Power Pivot, Pivot table, DAX, Formulas and functions)<br>
 - Power BI (DAX, Data Modelling, Star schema, Time intelligence).
 
 ## Dataset
