@@ -12,16 +12,25 @@ Which stores and products should the company **invest in, fix, watch or cut?**
 **Invest:** The online store grew 51.4% in 2019 and now makes 21.4% of sales, at the same margin as physical stores. Stores 66, 47 and 43 sell the most per square meter and keep growing. Computers and Cameras and camcorders are the strongest product categories.\
 **Fix:** 15 stores grow well but sell little per square meter, and Cell phones and Games and Toys grow fast on thin margins. Find the cause (product mix, location) before spending.\
 **Cut or review:** Store 20's sales fell 47.8% in 2019. Refrigerators fell 15.3% while the company grew 42.8%.\
-Read full the findings in [recommendations.md](https://github.com/kabirabdulsamad91/Retail-store-analysis/blob/main/recommendations.md)
+Read the full findings in [recommendations.md](https://github.com/kabirabdulsamad91/Retail-store-analysis/blob/main/recommendations.md)
+
+#### The dashboards
+![Executive overview](dashboards/overview.png)
+![Store actions](dashboards/stores.png)
+![Product verdicts](dashboards/product.png)
+![Online store](dashboards/online.png)
 
 #### How I did it
-**1. Understood the business problem and the data:** Define benchmarks and rules. Understood the tables and field to grasp why each exist, level of detail of each table (per order etc)\
+**1. Understood the business problem and the data:** Define benchmarks and rules. Understood the tables and field to grasp why each exists and the level of detail of each (for example, one row per order)\
 **2. Data Validation:** Check completeness, duplicate, nulls and consistency\
-**3. Prepared the data in Power Query and Power Pivot:** cleaned the tables, fix the inconsistence format of dates, standardize the data type for each field, transform the data and load it to power pivot to create relationships with tables.\
+**3. Prepared the data in Power Query and Power Pivot:** cleaned the tables, fixed inconsistent date formats, standardize the data type for each field, transform the data and load it to power pivot to create relationships with tables.\
 **4. Analysis:** Calculated the core retail KPIs including Total revenue, profit, units sold, profit margin etc. Trends( year-over-year sales growth), time intelligence. Store and Product performance with regards to the benchmarks for verdict. Regional segmentation\
 **5. Interpretation:** Separate what the evidence I got from the data from what it does not\
 **6. Visualization:** Rebuilt the model in Power BI and checked its numbers against my Excel results before designing four report pages.\
 **7. Recommendation and Key Insight**
+
+#### Technical showcase\
+Power query, data modelling, DAX, Excel formulas and Pivot tables: see [technical-showcase.md](technical-showcase.md).
 
 #### Decisions I made
 **1. Median, not average,** as the benchmark, because outliers pull the average up.\
@@ -42,4 +51,4 @@ Read full the findings in [recommendations.md](https://github.com/kabirabdulsama
 Maven Analytics, Global Electronics Retailer dataset, from the [Maven Analytics Data Playground](https://mavenanalytics.io/data-playground/global-electronics-retailer). The raw data is not copied here; download it from the source.
 
 #### About me
-I'm Kabir Abdulsamad, a Computer science graduate in Nigeria building a career in data analytics. Connect with me on [LinkedIn](www.linkedin.com/in/kabir-abdulsamad-04b9bb3a5).
+I'm Kabir Abdulsamad, a Computer science graduate in Nigeria building a career in data analytics. Connect with me on [LinkedIn](https://www.linkedin.com/in/kabir-abdulsamad-04b9bb3a5).
