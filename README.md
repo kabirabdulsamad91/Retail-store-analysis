@@ -11,7 +11,7 @@ Which stores and products should the company **invest in, fix, watch or cut?**
 #### The answer
 **Invest:** The online store grew 51.4% in 2019 and now makes 21.4% of sales, at the same margin as physical stores. Stores 66, 47 and 43 sell the most per square meter and keep growing. Computers and Cameras and camcorders are the strongest product categories.\
 **Fix:** 15 stores grow well but sell little per square meter, and Cell phones and Games and Toys grow fast on thin margins. Find the cause (product mix, location) before spending.\
-**Cut or review:** Store 20's sales fell 47.8% in 2019. Refrigerators fell 15.3% while the company grew 42.8%.
+**Cut or review:** Store 20's sales fell 47.8% in 2019. Refrigerators fell 15.3% while the company grew 42.8%.\
 Read full the findings in [recommendations.md](https://github.com/kabirabdulsamad91/Retail-store-analysis/blob/main/recommendations.md)
 
 #### How I did it
